@@ -55,7 +55,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 /* ============== Tyeped Js ============ */
 let typed = new Typed('.multiple-text', {
     strings: [
-        'I deliver seamless, end-to-end WEB SOLUTIONS that JUST WORK.'
+        'I deliver seamless, end-to-end WEB SOLUTIONS that JUST WORK!'
 
         // 'a Full-stack Software Engineer',
         // 'a Database Designer',
