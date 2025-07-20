@@ -51,14 +51,14 @@ section {
 }
 
 .logo {
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
 }
 
 .navbar a {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     color: var(--text-color);
     margin-left: 4rem;
     transition: .3s;
@@ -70,7 +70,7 @@ section {
 }
 
 #menu-icon {
-    font-size: 3.6rem;
+    font-size: 2.6rem;
     color: var(--text-color);
     display: none;
 }
@@ -106,7 +106,7 @@ section {
 }
 
 .home-content h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
 
 }
@@ -118,7 +118,7 @@ section {
 }
 
 .home-content {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
 }
 
 .home-content h3:nth-last-of-type(2) {
@@ -146,7 +146,7 @@ span {
     background: transparent;
     /* border: .1rem solid var(--main-color); */
     border-radius: 50%;
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
@@ -164,7 +164,7 @@ span {
     background: var(--main-color);
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: var(--second-bg-color);
     letter-spacing: .1rem;
     font-weight: 600;
@@ -205,7 +205,7 @@ span {
 
 .heading {
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
 
 }
 
@@ -213,21 +213,21 @@ span {
     text-align: left;
     line-height: 1.2;
     margin-bottom: 2rem;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .about-content h3 {
-    font-size: 2.6rem;
+    font-size: 1.6rem;
 }
 
 .about-content p {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
 
 .services h2 {
     margin-bottom: 4rem;
-    font-size: 6rem;    
+    font-size: 5rem;    
 }
 
 .services-container {
@@ -260,13 +260,13 @@ span {
 }
 
 .services-box h3 {
-  font-size: 3.0rem;
+  font-size: 2.0rem;
   margin-bottom: 3rem;
 }
 
 .services-box ul {
   list-style-type: disc;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: left;
   padding: 0 5rem;
   margin: 1rem 0 3rem;
@@ -284,7 +284,7 @@ span {
 
 .portfolio h2 {
     margin-bottom: 4rem;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .portfolio-container {
@@ -333,11 +333,11 @@ span {
 }
 
 .portfolio-layer h4 {
-    font-size: 3rem;
+    font-size: 1.6rem;
 }
 
 .portfolio-layer p {
-    font-size: 2.0rem;
+    font-size: 1.6rem;
     margin: .3rem 0 1rem;
 }
 
@@ -358,7 +358,7 @@ span {
 
 .contact h2 {
     margin-bottom: 4rem;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .contact form {
@@ -378,7 +378,7 @@ span {
 .contact form textarea {
     width: 100%;
     padding: 1.5rem;
-    font-size: 2.0rem;
+    font-size: 1.6rem;
     color: var(--text-color);
     background: var(--second-bg-color);
     border-radius: .8rem;
@@ -396,7 +396,7 @@ span {
 .contact form .btn {
     margin-top: 2rem;
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 1.6rem;
 }
 
 .footer {
@@ -409,7 +409,7 @@ span {
 }
 
 .footer-text p {
-    font-size: 2.0rem;
+    font-size: 1.6rem;
 }
 
 .footer-iconTop a {
@@ -495,7 +495,7 @@ span {
 
     .navbar a {
         display: block;
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin: 3rem 0;
     }
 
@@ -504,11 +504,11 @@ span {
     }
 
     .home-content h3 {
-        font-size: 2.6rem;
+        font-size: 2.0rem;
     }
 
     .home-content h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .home-img img {
