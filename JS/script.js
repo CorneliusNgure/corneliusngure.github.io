@@ -55,17 +55,19 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 /* ============== Tyeped Js ============ */
 let typed = new Typed('.multiple-text', {
     strings: [
-        'a Full-stack Software Engineer',
-        'a Database Designer',
-        'a DevOps Engineer',
-        'an API Developer',
-        'a Technical Consultant'
+        'I deliver seamless, end-to-end WEB SOLUTIONS that JUST WORK.'
+
+        // 'a Full-stack Software Engineer',
+        // 'a Database Designer',
+        // 'a DevOps Engineer',
+        // 'an API Developer',
+        // 'a Technical Consultant'
 ],
-    typeSpeed: 50,
-    backSpeed: 100,
+    typeSpeed: 100,
+    backSpeed: 20,
     backDelay: 1000,
     loop: true,
-    smartBackspace: false
+    smartBackspace: true
 });
 
 /* ============== Read More Button in Services Section ============ */
