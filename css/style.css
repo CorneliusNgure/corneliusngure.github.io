@@ -176,6 +176,10 @@ span {
     box-shadow: none;
 }
 
+section#about {
+    position: relative;
+}
+
 .about {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -225,6 +229,36 @@ span {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+
+.arrow {
+    position: absolute;
+    margin-top: 90rem;
+    left: 80rem;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.arrow img {
+  animation: pulse 1s infinite;
+}
+
+
+.arrow img {
+    width: 30rem;
+    animation: pulse 1.5s infinite;
+}
+
+
 
 /* Embedded Video */
 
@@ -457,6 +491,20 @@ span {
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    section#about {
+        position: relative;
+    }
+    
+    .arrow {
+    position: absolute;
+    top: 18%;
+    left: 33%;
+    }
+    
+    .arrow img {
+    width: 20rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -466,6 +514,10 @@ span {
 
     section {
         padding: 10rem 3% 2rem;
+    }
+
+    .arrow {
+    display: none;
     }
 
     .services {
@@ -580,6 +632,10 @@ span {
         margin-top: 4rem;
     }
 
+    .arrow {
+    display: none;
+    }
+
     .services h2 {
         margin-bottom: 3rem;
     }
@@ -651,15 +707,19 @@ span {
 
         .about-content h2 {
         font-size: 3rem;
-    }
-
-    .about-content p {
+        }
+        
+        .about-content p {
         font-size: 1.3rem;
-    }
-
-    .left-about .about-img {
+        }
+        
+        .left-about .about-img {
         max-width: 150px;
-    }
+        }
+        
+        .arrow {
+            display: none;
+        }
     }
 
     @media (max-width: 365px) {
@@ -671,6 +731,10 @@ span {
             width: 90vw;
         }
 
+        .arrow {
+            display: none;
+        }
+
         .footer {
             flex-direction: column-reverse;
         }
@@ -679,5 +743,4 @@ span {
             text-align: center;
             margin-top: 2rem;
         }
-
     }
