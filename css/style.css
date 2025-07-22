@@ -225,6 +225,8 @@ span {
     margin: 2rem 0 3rem;
 }
 
+/* Embedded Video */
+
 .video-container {
     grid-column: 2;
     grid-row: 2;
@@ -484,6 +486,43 @@ span {
     .footer {
         padding: 2rem 3%;
     }
+
+    .about {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding-top: 3rem;
+    }
+
+    .left-about {
+        flex-direction: column;
+        gap: 2rem;
+        grid-column: 1;
+        grid-row: 1;
+        align-items: center;
+        text-align: left;
+    }
+
+    .left-about .about-img {
+        max-width: 250px;
+    }
+
+    .about-content h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .video-container {
+        grid-column: 1;
+        grid-row: 2;
+        width: 100%;
+        justify-self: center;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
 }
 
 @media (max-width: 768px) {
@@ -552,12 +591,54 @@ span {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    @media (max-width: 617px) {
-        .portfolio-container {
-            grid-template-columns: 1fr;
-        }
+    .about {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding-top: 3rem;
     }
 
+    .left-about {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .left-about .about-img {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .about-content h2 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .about-content p {
+        font-size: 1.4rem;
+    }
+
+    .video-container {
+        grid-column: 1;
+        grid-row: 2;
+        width: 100%;
+        justify-self: center;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+}
+
+@media (max-width: 617px) {
+    .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+}
+    
     @media (max-width: 450px) {
         html {
             font-size: 50%;
@@ -566,6 +647,18 @@ span {
         .contact form .input-box input {
             width: 100%;
         }
+
+        .about-content h2 {
+        font-size: 3rem;
+    }
+
+    .about-content p {
+        font-size: 1.3rem;
+    }
+
+    .left-about .about-img {
+        max-width: 150px;
+    }
     }
 
     @media (max-width: 365px) {
@@ -587,4 +680,3 @@ span {
         }
 
     }
-}
