@@ -55,13 +55,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 /* ============== Tyeped Js ============ */
 let typed = new Typed('.multiple-text', {
     strings: [
-        'I deliver user-centric, end-to-end WEB SOLUTIONS that JUST WORK!'
-
-        // 'a Full-stack Software Engineer',
-        // 'a Database Designer',
-        // 'a DevOps Engineer',
-        // 'an API Developer',
-        // 'a Technical Consultant'
+        'MERN, Python, APIs, DevOps - all woven into solutions that work for YOU'
 ],
     typeSpeed: 100,
     backSpeed: 20,
