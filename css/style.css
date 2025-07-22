@@ -184,19 +184,33 @@ span {
     pointer-events: none;
 } */
 
+
 .about {
-    padding-top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: start;
+    padding-top: 5rem;
     background: var(--second-bg-color);
 }
 
+.left-about {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
 .about-img {
+    grid-column: 1;
+    grid-row: 1;
     width: 100%;
     max-width: 300px;
 }
+
+/* .about-content {
+    grid-column: 2;
+    grid-row: 1;
+} */
 
 .about-img img {
     width: 100%;
@@ -205,7 +219,7 @@ span {
 
 .heading {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 5rem;
 
 }
 
@@ -223,6 +237,20 @@ span {
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+}
+
+.video-container {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: end;
+    width: 100%;
+}
+
+.video-container iframe {
+    border-radius: 1rem;
+    width: 100%;
+    aspect-ratio: 16/9;
+    height: auto;
 }
 
 .services h2 {
