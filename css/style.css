@@ -232,8 +232,8 @@ section#about {
 
 .arrow {
     position: absolute;
-    top: 65%;
-    left: 35%;
+    top: 73%;
+    left: 30%;
 }
 
 @keyframes pulse {
@@ -254,7 +254,7 @@ section#about {
 
 
 .arrow img {
-    width: 30rem;
+    width: 25rem;
     animation: pulse 1.5s infinite;
 }
 
@@ -498,8 +498,8 @@ section#about {
     
     .arrow {
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 18%;
+    left: 33%;
     }
     
     .arrow img {
