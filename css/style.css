@@ -192,9 +192,9 @@ section#about {
 .left-about {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 1rem;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 4;
     grid-row: 1;
 }
 
