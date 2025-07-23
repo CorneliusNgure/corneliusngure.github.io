@@ -192,7 +192,7 @@ section#about {
 .left-about {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 3rem;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row: 1;
@@ -205,7 +205,7 @@ section#about {
 
 
 .left-about .about-img img {
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
