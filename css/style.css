@@ -182,7 +182,7 @@ section#about {
 
 .about {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
     align-items: start;
     padding-top: 5rem;
@@ -193,7 +193,8 @@ section#about {
     display: flex;
     flex-direction: row;
     gap: 5rem;
-    grid-column: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
     grid-row: 1;
 }
 
@@ -263,7 +264,8 @@ section#about {
 /* Embedded Video */
 
 .video-container {
-    grid-column: 2;
+    grid-column-start: 3;
+    grid-column-end: 6;
     grid-row: 2;
     justify-self: end;
     width: 100%;
