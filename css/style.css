@@ -232,8 +232,8 @@ section#about {
 
 .arrow {
     position: absolute;
-    margin-top: 90rem;
-    left: 80rem;
+    top: 65%;
+    left: 35%;
 }
 
 @keyframes pulse {
@@ -520,26 +520,6 @@ section#about {
     display: none;
     }
 
-    .services {
-        padding-bottom: 7rem;
-    }
-
-    .portfolio {
-        padding-bottom: 7rem;
-    }
-
-    .portfolio-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .contact {
-        min-height: auto;
-    }
-
-    .footer {
-        padding: 2rem 3%;
-    }
-
     .about {
         grid-template-columns: 1fr;
         gap: 3rem;
@@ -575,6 +555,26 @@ section#about {
         width: 100%;
         height: auto;
         aspect-ratio: 16/9;
+    }
+
+    .services {
+        padding-bottom: 7rem;
+    }
+
+    .portfolio {
+        padding-bottom: 7rem;
+    }
+
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact {
+        min-height: auto;
+    }
+
+    .footer {
+        padding: 2rem 3%;
     }
 }
 
