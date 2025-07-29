@@ -36,7 +36,6 @@ window.onscroll = () => {
     /* ============== Remove toggle icon and navbar when click navbar link (scroll) ============ */
     menuIcon.classList.remove('fa-xmark');
     navbar.classList.remove('active');
-
 };
 
 /* ============== Scroll Reveal ============ */
